@@ -27,7 +27,8 @@ int main(void)
   
   while ((foodCount <= 8) && (choise == 'Y'))
   {
-	  
+	printf("\nEnter food id : ");
+    scanf(" %c", &foodId);
   }
   
   return 0;
