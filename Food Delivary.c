@@ -59,6 +59,12 @@ int main(void)
       countE++;
       totE += 50.0;
     }
+	else if(foodId == 'f' || foodId == 'F')
+    {
+      printf("Coconut Oil Added\n");
+      countF++;
+      totF += 150.0;
+    }
   }
   
   return 0;
