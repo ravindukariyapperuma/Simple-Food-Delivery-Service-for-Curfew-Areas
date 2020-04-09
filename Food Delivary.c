@@ -83,6 +83,12 @@ int main(void)
       countI++;
       totI += 80.0;
     }
+	else if(foodId == 'j' || foodId == 'J')
+    {
+      printf("Potato Added\n");
+      countJ++;
+      totJ += 90.0;
+    }
   }
   
   return 0;
