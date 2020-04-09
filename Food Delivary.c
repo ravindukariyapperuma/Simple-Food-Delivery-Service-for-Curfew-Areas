@@ -77,6 +77,12 @@ int main(void)
       countH++;
       totH += 70.0;
     }
+	else if(foodId == 'i' || foodId == 'I')
+    {
+      printf("Onion Added\n");
+      countI++;
+      totI += 80.0;
+    }
   }
   
   return 0;
