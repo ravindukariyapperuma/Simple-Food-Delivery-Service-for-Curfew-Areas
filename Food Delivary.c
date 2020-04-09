@@ -24,7 +24,11 @@ int main(void)
   char foodId, choise ='Y';
   int foodCount = 0, countA = 0, countB = 0, countC = 0, countD = 0, countE = 0, countF = 0, countG = 0, countH = 0, countI = 0, countJ = 0, countK = 0, countL = 0, countM = 0;
   float totA = 0.0, totB = 0.0, totC = 0.0, totD = 0.0, totE = 0.0, totF = 0.0, totG = 0.0, totH = 0.0, totI = 0.0, totJ = 0.0, totK = 0.0, totL = 0.0, totM = 0.0, total = 0.0;
-
+  
+  while ((foodCount <= 8) && (choise == 'Y'))
+  {
+	  
+  }
   
   return 0;
 }
