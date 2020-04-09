@@ -101,6 +101,12 @@ int main(void)
       countL++;
       totL += 160.0;
     }
+	else if(foodId == 'm' || foodId == 'M')
+    {
+      printf("Sugar Added\n");
+      countM++;
+      totM += 45.0;
+    }
   }
   
   return 0;
