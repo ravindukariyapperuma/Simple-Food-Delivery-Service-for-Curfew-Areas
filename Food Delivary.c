@@ -71,6 +71,12 @@ int main(void)
       countG++;
       totG += 110.0;
     }
+	else if(foodId == 'h' || foodId == 'H')
+    {
+      printf("Soyameat Added\n");
+      countH++;
+      totH += 70.0;
+    }
   }
   
   return 0;
