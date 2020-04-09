@@ -112,6 +112,12 @@ int main(void)
       printf("Invalid Food id");
       foodCount--;
     }
+	foodCount++;
+	if (foodCount >= 8)
+    {
+      printf("\nYou have buy the maximum number of foods for the day");
+      break;
+    }
   }
   
   return 0;
