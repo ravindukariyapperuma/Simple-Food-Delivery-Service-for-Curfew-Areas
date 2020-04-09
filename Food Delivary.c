@@ -124,6 +124,7 @@ int main(void)
        scanf("%*c%c", &choise); 
     }
   }
+  total = totA + totB + totC + totD + totE + totF + totG + totH + totI + totJ + totK + totL + totM;
   
   return 0;
 }
