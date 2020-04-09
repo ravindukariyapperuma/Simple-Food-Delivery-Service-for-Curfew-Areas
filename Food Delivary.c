@@ -47,6 +47,12 @@ int main(void)
       countC++;
       totC += 50.0;
     }
+	else if(foodId == 'd' || foodId == 'D')
+    {
+      printf("Jack Mackeral Added\n");
+      countD++;
+      totD += 100.0;
+    }
   }
   
   return 0;
