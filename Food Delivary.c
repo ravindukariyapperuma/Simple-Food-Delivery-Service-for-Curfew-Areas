@@ -95,6 +95,12 @@ int main(void)
       countK++;
       totK += 52.0;
     }
+	else if(foodId == 'l' || foodId == 'L')
+    {
+      printf("Carrot Added\n");
+      countL++;
+      totL += 160.0;
+    }
   }
   
   return 0;
