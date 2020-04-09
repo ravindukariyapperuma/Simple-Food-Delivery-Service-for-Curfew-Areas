@@ -35,6 +35,12 @@ int main(void)
       countA++;
       totA += 270.0;
     }
+	else if(foodId == 'b' || foodId == 'B')
+    {
+      printf("Milk Powder Added\n");
+      countB++;
+      totB += 100.0;
+    }
   }
   
   return 0;
