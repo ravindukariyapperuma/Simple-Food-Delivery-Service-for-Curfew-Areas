@@ -29,6 +29,12 @@ int main(void)
   {
 	printf("\nEnter food id : ");
     scanf(" %c", &foodId);
+	if(foodId == 'a' || foodId == 'A')
+    {
+      printf("Samba Rice Added\n");
+      countA++;
+      totA += 270.0;
+    }
   }
   
   return 0;
