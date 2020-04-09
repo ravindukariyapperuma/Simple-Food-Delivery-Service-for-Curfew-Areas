@@ -41,6 +41,12 @@ int main(void)
       countB++;
       totB += 100.0;
     }
+	else if(foodId == 'c' || foodId == 'C')
+    {
+      printf("Tea Added\n");
+      countC++;
+      totC += 50.0;
+    }
   }
   
   return 0;
