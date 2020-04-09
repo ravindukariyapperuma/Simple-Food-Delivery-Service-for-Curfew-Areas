@@ -53,6 +53,12 @@ int main(void)
       countD++;
       totD += 100.0;
     }
+	else if(foodId == 'e' || foodId == 'E')
+    {
+      printf("Biscuit Added\n");
+      countE++;
+      totE += 50.0;
+    }
   }
   
   return 0;
