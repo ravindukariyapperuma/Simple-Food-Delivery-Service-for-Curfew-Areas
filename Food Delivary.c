@@ -126,5 +126,33 @@ int main(void)
   }
   total = totA + totB + totC + totD + totE + totF + totG + totH + totI + totJ + totK + totL + totM;
   
+   printf("\n----------------------------------------------");
+  printf("\nSamba Rice : %d\n" , countA);
+  printf("price %.2f\n\n" , totA);
+  printf("\nMilk Powder : %d\n" , countB);
+  printf("price %.2f\n\n" , totB);
+  printf("\nTea : %d\n" , countC);
+  printf("price %.2f\n\n" , totC);
+  printf("\nJack Mackeral : %d\n" , countD);
+  printf("price %.2f\n\n" , totD);
+  printf("\nBiscuit : %d\n" , countE);
+  printf("price %.2f\n\n" , totE);
+  printf("\nCoconut Oil : %d\n" , countF);
+  printf("price %.2f\n\n" , totF);
+  printf("\nNoodles : %d\n" , countG);
+  printf("price %.2f\n\n" , totG);
+  printf("\nSoyameat : %d\n" , countH);
+  printf("price %.2f\n\n" , totH);
+  printf("\nOnion : %d\n" , countI);
+  printf("price %.2f\n\n" , totI);
+  printf("\nPotato : %d\n" , countJ);
+  printf("price %.2f\n\n" , totJ);
+  printf("\nEggs : %d\n" , countK);
+  printf("price %.2f\n\n" , totK);
+  printf("\nCarrot : %d\n" , countL);
+  printf("price %.2f\n\n" , totL);
+  printf("\nSugar : %d\n" , countM);
+  printf("price %.2f\n\n" , totM);
+  
   return 0;
 }
