@@ -154,5 +154,10 @@ int main(void)
   printf("\nSugar : %d\n" , countM);
   printf("price %.2f\n\n" , totM);
   
+  printf("==================================\n"); 
+  printf("Total amount : %.2f\n",total);
+  printf("==================================\n"); 
+  printf("Free Dilivary\n");
+  
   return 0;
 }
