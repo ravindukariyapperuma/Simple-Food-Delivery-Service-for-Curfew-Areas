@@ -89,6 +89,12 @@ int main(void)
       countJ++;
       totJ += 90.0;
     }
+	else if(foodId == 'k' || foodId == 'K')
+    {
+      printf("Eggs Added\n");
+      countK++;
+      totK += 52.0;
+    }
   }
   
   return 0;
