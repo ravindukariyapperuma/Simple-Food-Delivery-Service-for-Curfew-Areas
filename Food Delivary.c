@@ -65,6 +65,12 @@ int main(void)
       countF++;
       totF += 150.0;
     }
+	else if(foodId == 'g' || foodId == 'G')
+    {
+      printf("Noodles Added\n");
+      countG++;
+      totG += 110.0;
+    }
   }
   
   return 0;
