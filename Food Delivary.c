@@ -107,6 +107,11 @@ int main(void)
       countM++;
       totM += 45.0;
     }
+	else
+    {
+      printf("Invalid Food id");
+      foodCount--;
+    }
   }
   
   return 0;
