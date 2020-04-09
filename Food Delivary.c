@@ -118,6 +118,11 @@ int main(void)
       printf("\nYou have buy the maximum number of foods for the day");
       break;
     }
+	else
+    {
+       printf("\nDo you want do another Food (Y/N)");             
+       scanf("%*c%c", &choise); 
+    }
   }
   
   return 0;
